@@ -12,7 +12,7 @@
 # Raise an error if a number isn't entered
 
 """ try: 
-    # test to see if the statement runs wihtout errors
+    # test to see if the statement runs without errors
     weight = float(input("Enter weight in kgs: "))
     height = float(input("Enter height in cms: "))
 except : 
@@ -20,7 +20,7 @@ except :
     print("Sorry, only numbers can be entered.")
 else: 
     # if there are NO errors, keep running through program
-    # bmi = weight/height. height must be converted to meters, then squared.
+    # bmi = weight/height. height must be converted to metres, then squared.
     bmi = weight / ((height / 100) ** 2)
     # display answer to 2 decimal places
     print("Your BMI is {:.2f}.".format(bmi)) """
@@ -31,7 +31,7 @@ else:
 # loop through the code. "while true" allows the code to loop continously as the condition is always met
 while True:
     try: 
-        # test to see if the statements run wihtout errors
+        # test to see if the statements run without errors
         weight = float(input("Enter weight in kgs: "))
         height = float(input("Enter height in cms: "))
 
@@ -50,7 +50,7 @@ while True:
 
     else: 
         # if there are NO errors, keep running through program
-        # bmi = weight/height. height must be converted to meters, then squared.
+        # bmi = weight/height. height must be converted to metres, then squared.
         bmi = weight / ((height / 100) ** 2)
         # display answer to 2 decimal places
         print("Your BMI is {:.2f}.".format(bmi))
