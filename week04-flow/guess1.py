@@ -1,5 +1,5 @@
-# evens.py
-# This program prints out even numbers in a range
+# guess1.py
+# This program lets the user guess a number
 # Author: Alan Healy
 # Date Created: 27-FEB-2021
 
