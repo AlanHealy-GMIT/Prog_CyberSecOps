@@ -4,11 +4,21 @@
 # Date Created: 10-MAR-2021
 
 
-with open("test-b.txt", "w") as f:
-    data = f.write("test b\n") #returns number of chars written? yes
+# with open("test-b.txt", "w") as f:
+#     data = f.write("test b\n") #returns number of chars written? yes
+#     print(data)
+
+
+# with open("test-b.txt", "w") as f2:
+#     data = f2.write("another line\n")  # open file again
+#     print(data)
+
+
+with open("test-d.txt", "w") as f:
+    data = f.write("test d\n")  # returns number of chars written? yes
     print(data)
 
 
-with open("test-b.txt", "w") as f2:
+with open("test-d.txt", "a") as f2:
     data = f2.write("another line\n")  # open file again
     print(data)
